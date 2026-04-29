@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<html>
 <head>
     <meta charset="UTF-8">
     <title>Convertisseur de devises</title>
@@ -20,19 +19,78 @@
     <!-- Sélecteur devise source -->
     <select id="from">
       <option value="EUR"> EUR - Euro </option>
+      <option value="USD"> USD - Dollar US </option>
+      <option value="TND"> TND - Dinar tunisien </option>
+      <option value="GBP"> GBP - Livre sterling </option>
+      <option value="JPY"> JPY - Yen japonais </option>
+      <option value="CAD"> CAD - Dollar canadien </option>
+      <option value="CHF"> CHF - Franc suisse </option>
+      <option value="AUD"> AUD - Dollar australien </option>
+      <option value="CNY"> CNY - Yuan chinois </option>
+      <option value="SAR"> SAR - Riyal saoudien </option>
+      <option value="AED"> AED - Dirham EAU </option>
+      <option value="MAD"> MAD - Dirham marocain </option>
+      <option value="EGP"> EGP - Livre égyptienne </option>
+      <option value="TRY"> TRY - Livre turque </option>
+      <option value="INR"> INR - Roupie indienne </option>
+      <option value="KRW"> KRW - Won sud-coréen </option>
+      <option value="BRL"> BRL - Real brésilien </option>
+      <option value="MXN"> MXN - Peso mexicain </option>
+      <option value="ZAR"> ZAR - Rand sud-africain </option>
+      <option value="RUB"> RUB - Rouble russe </option>
+      <option value="SEK"> SEK - Couronne suédoise </option>
+      <option value="NOK"> NOK - Couronne norvégienne </option>
+      <option value="DKK"> DKK - Couronne danoise </option>
+      <option value="PLN"> PLN - Zloty polonais </option>
+      <option value="THB"> THB - Baht thaïlandais </option>
+      <option value="IDR"> IDR - Roupie indonésienne </option>
+      <option value="MYR"> MYR - Ringgit malaisien </option>
+      <option value="SGD"> SGD - Dollar singapourien </option>
+      <option value="NZD"> NZD - Dollar néo-zélandais </option>
+      <option value="HKD"> HKD - Dollar hongkongais </option>
     </select>
 
-    
+    <!-- Bouton pour inverser les devises -->
+    <button id="swap">⇄</button>
+
     <!-- Sélecteur devise cible -->
     <select id="to">
+      <option value="EUR"> EUR - Euro </option>
       <option value="USD"> USD - Dollar US </option>
+      <option value="TND"> TND - Dinar tunisien </option>
+      <option value="GBP"> GBP - Livre sterling </option>
+      <option value="JPY"> JPY - Yen japonais </option>
+      <option value="CAD"> CAD - Dollar canadien </option>
+      <option value="CHF"> CHF - Franc suisse </option>
+      <option value="AUD"> AUD - Dollar australien </option>
+      <option value="CNY"> CNY - Yuan chinois </option>
+      <option value="SAR"> SAR - Riyal saoudien </option>
+      <option value="AED"> AED - Dirham EAU </option>
+      <option value="MAD"> MAD - Dirham marocain </option>
+      <option value="EGP"> EGP - Livre égyptienne </option>
+      <option value="TRY"> TRY - Livre turque </option>
+      <option value="INR"> INR - Roupie indienne </option>
+      <option value="KRW"> KRW - Won sud-coréen </option>
+      <option value="BRL"> BRL - Real brésilien </option>
+      <option value="MXN"> MXN - Peso mexicain </option>
+      <option value="ZAR"> ZAR - Rand sud-africain </option>
+      <option value="RUB"> RUB - Rouble russe </option>
+      <option value="SEK"> SEK - Couronne suédoise </option>
+      <option value="NOK"> NOK - Couronne norvégienne </option>
+      <option value="DKK"> DKK - Couronne danoise </option>
+      <option value="PLN"> PLN - Zloty polonais </option>
+      <option value="THB"> THB - Baht thaïlandais </option>
+      <option value="IDR"> IDR - Roupie indonésienne </option>
+      <option value="MYR"> MYR - Ringgit malaisien </option>
+      <option value="SGD"> SGD - Dollar singapourien </option>
+      <option value="NZD"> NZD - Dollar néo-zélandais </option>
+      <option value="HKD"> HKD - Dollar hongkongais </option>
     </select>
 
   </div>
 
   <!-- Zone d'affichage du résultat -->
   <p id="result"></p>
-
 </div>
 
 <script src="script.js"></script>
