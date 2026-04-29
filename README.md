@@ -42,3 +42,6 @@ Solutions apportées :
 - Consultation de la documentation de l’API
 - Utilisation de try...catch pour gérer les erreurs
 - Ajout d’événements (addEventListener) pour rendre l'application dynamique
+
+Auteur :
+Ben Sassi Yakine
