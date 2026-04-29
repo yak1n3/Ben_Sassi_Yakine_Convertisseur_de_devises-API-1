@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur de devises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Conteneur principal de l'application -->
+<div class="container">
+  <h2>💱Convertisseur de devises💱</h2>
+
+  <!-- Champ de saisie du montant -->
+  <input type="number" id="amount" placeholder="Montant">
+
+  <div class="row">
+
+    <!-- Sélecteur devise source -->
+    <select id="from">
+      <option value="EUR"> EUR - Euro </option>
+    </select>
+
+    
+    <!-- Sélecteur devise cible -->
+    <select id="to">
+      <option value="USD"> USD - Dollar US </option>
+    </select>
+
+  </div>
+
+  <!-- Zone d'affichage du résultat -->
+  <p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
